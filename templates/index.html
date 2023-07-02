@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tradutor</title>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tradutor</h1>
+        <form id="tradutor-form">
+            <div>
+                <label for="texto">Texto:</label>
+                <textarea id="texto" name="texto" rows="4" cols="50"></textarea>
+            </div>
+            <div>
+                <label for="idioma">Idioma:</label>
+                <select id="idioma" name="idioma">
+                    <option value="inglês">Inglês</option>
+                    <option value="espanhol">Espanhol</option>
+                    <option value="francês">Francês</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">Traduzir</button>
+            </div>
+        </form>
+        <div id="resultado-traducao"></div>
+    </div>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
